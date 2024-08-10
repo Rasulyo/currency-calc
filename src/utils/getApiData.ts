@@ -1,7 +1,9 @@
+import { KeyApi } from "const/const";
 import { ApiResponse } from "types/types";
 
 const apiURL =
-  "https://api.currencyapi.com/v3/latest?apikey=cur_live_dJIiMBbmAZ9HJeKBX41En6P3lzSmOo04hm1Bg2m9";
+`https://api.currencyapi.com/v3/latest?apikey=${KeyApi}`
+
 
 export const getApiData = async (): Promise<ApiResponse> => {
   const response = await fetch(apiURL);

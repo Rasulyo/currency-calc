@@ -1,5 +1,6 @@
 import { cleanup } from "@testing-library/react";
 import { getApiData } from "../getApiData";
+import { KeyApi } from "const/const";
 
 const originalFetch = global.fetch;
 
@@ -36,7 +37,7 @@ describe("get API data", () => {
 
     expect(await getApiData()).toEqual(mockData);
     expect(global.fetch).toHaveBeenCalledWith(
-      "https://api.currencyapi.com/v3/latest?apikey=cur_live_dJIiMBbmAZ9HJeKBX41En6P3lzSmOo04hm1Bg2m9"
+      `https://api.currencyapi.com/v3/latest?apikey=${KeyApi}`
     );
   });
 

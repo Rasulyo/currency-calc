@@ -1,0 +1,1 @@
+export const KeyApi = "cur_live_v25R8yvbNc8KQ8rbMd2JkRTptSwGyiNJM2AxVNKp";
