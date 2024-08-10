@@ -1,9 +1,8 @@
 {
-  "name": "currency_calculator_react",
+  "name": "currency-calc",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "homepage": "https://traczoskar.github.io/currency_calculator_react/",
   "dependencies": {
     "@testing-library/user-event": "^13.5.0",
     "@types/react": "^18.2.78",
